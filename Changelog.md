@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.1, 2020-04-20
+
+### Added
+
+### Edited
+
+### Fixed
+
+- Gemfile.lock. Updated dependencies.
+
 ## v0.1.0, 2020-04-19
 
 ### Added
