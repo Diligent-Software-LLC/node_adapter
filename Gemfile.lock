@@ -50,7 +50,7 @@ DEPENDENCIES
   minitest (~> 5.0)
   node_adapter!
   rake (~> 13.0)
-  simplecov (~> 0.17)
+  simplecov (~> 0)
 
 BUNDLED WITH
    2.1.2
