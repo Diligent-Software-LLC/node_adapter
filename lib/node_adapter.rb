@@ -2,6 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "node_adapter/version"
+require 'node_adapter_int'
 require 'node_adapter_impl'
 
 # NodeAdapterLibrary.

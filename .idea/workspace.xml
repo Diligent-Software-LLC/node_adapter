@@ -29,9 +29,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/node_adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_adapter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_adapter/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_adapter/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_adapter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_adapter.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_adapter.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_adapter.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_adapter_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_adapter_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,10 @@
       <updated>1587327008864</updated>
       <workItem from="1587327012669" duration="3654000" />
       <workItem from="1587391564943" duration="367000" />
-      <workItem from="1589978456738" duration="681000" />
+      <workItem from="1589978456738" duration="893000" />
+      <workItem from="1589986999795" duration="16000" />
+      <workItem from="1589988124770" duration="60000" />
+      <workItem from="1590101079295" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md.">
       <created>1587328399898</created>
@@ -162,10 +165,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587391768212</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification's email, summary, description, homepage, changelog_uri, and dependencies. Edited README.md's repository description, Installation content, and Documentation content.">
+      <created>1589979409309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589979409309</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Library Sprints: 9 State: {Setup}" />
+        <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Library Sprints: 9 State: {Development}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -191,34 +201,34 @@
     <MESSAGE value="Development Complete&#10;&#10;'required' the NodeAdapter implementation. Formatted node_adapter_test.rb." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Removed Travis CI deploy settings. Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Gemfile.lock. Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Gemfile.lock. Updated Changelog.md." />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification's email, summary, description, homepage, changelog_uri, and dependencies. Edited README.md's repository description, Installation content, and Documentation content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification's email, summary, description, homepage, changelog_uri, and dependencies. Edited README.md's repository description, Installation content, and Documentation content." />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="175" key="#Servers" timestamp="1587327120785">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="439" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587327120785" />
-    <state x="149" y="53" width="1317" height="854" key="CommitChangelistDialog2" timestamp="1587391767807">
+    <state x="42" y="46" width="1589" height="906" key="CommitChangelistDialog2" timestamp="1589979408947">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="149" y="53" width="1317" height="854" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587391767807" />
-    <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1587391821739">
+    <state x="42" y="46" width="1589" height="906" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589979408947" />
+    <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1590101477084">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587391821739" />
-    <state width="1588" height="271" key="GridCell.Tab.0.center" timestamp="1587391821738">
+    <state width="1588" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590101477084" />
+    <state width="1588" height="271" key="GridCell.Tab.0.center" timestamp="1590101477083">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587391821738" />
-    <state width="1588" height="271" key="GridCell.Tab.0.left" timestamp="1587391821738">
+    <state width="1588" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590101477083" />
+    <state width="1588" height="271" key="GridCell.Tab.0.left" timestamp="1590101477083">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587391821738" />
-    <state width="1588" height="271" key="GridCell.Tab.0.right" timestamp="1587391821738">
+    <state width="1588" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590101477083" />
+    <state width="1588" height="271" key="GridCell.Tab.0.right" timestamp="1590101477084">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587391821738" />
+    <state width="1588" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590101477084" />
     <state width="1588" height="335" key="GridCell.Tab.1.bottom" timestamp="1587333810666">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -247,12 +257,12 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="504" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587333791749" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589979048972">
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590101564107">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589979048972" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590101564107" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/node_adapter@NodeAdapterLibraryTest.rcov" NAME="NodeAdapterLibraryTest Coverage Results" MODIFIED="1587332136924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter" />
+    <SUITE FILE_PATH="coverage/node_adapter@NodeAdapterLibraryTest.rcov" NAME="NodeAdapterLibraryTest Coverage Results" MODIFIED="1590101473490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter" />
   </component>
 </project>
