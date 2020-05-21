@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65ddc1ab-2e07-4748-8939-89dadcadef9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/node_adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_adapter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_adapter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_adapter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_adapter.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_adapter.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_adapter_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_adapter_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="317" />
+    <option name="myElementSize" value="369" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -135,7 +130,7 @@
       <workItem from="1589978456738" duration="893000" />
       <workItem from="1589986999795" duration="16000" />
       <workItem from="1589988124770" duration="60000" />
-      <workItem from="1590101079295" duration="389000" />
+      <workItem from="1590101079295" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md.">
       <created>1587328399898</created>
@@ -172,10 +167,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589979409309</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Development Complete&#10;&#10;Added node_adapter_int 'require'ment. Added test coverage. Added node development dependency.">
+      <created>1590101733299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590101733299</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Library Sprints: 9 State: {Development}" />
+        <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Library Sprints: 9 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -202,17 +204,18 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Removed Travis CI deploy settings. Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Gemfile.lock. Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification's email, summary, description, homepage, changelog_uri, and dependencies. Edited README.md's repository description, Installation content, and Documentation content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification's email, summary, description, homepage, changelog_uri, and dependencies. Edited README.md's repository description, Installation content, and Documentation content." />
+    <MESSAGE value="Development Complete&#10;&#10;Added node_adapter_int 'require'ment. Added test coverage. Added node development dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added node_adapter_int 'require'ment. Added test coverage. Added node development dependency." />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="175" key="#Servers" timestamp="1587327120785">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="439" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587327120785" />
-    <state x="42" y="46" width="1589" height="906" key="CommitChangelistDialog2" timestamp="1589979408947">
+    <state x="42" y="46" width="1589" height="906" key="CommitChangelistDialog2" timestamp="1590101972474">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="42" y="46" width="1589" height="906" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589979408947" />
+    <state x="42" y="46" width="1589" height="906" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590101972474" />
     <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1590101477084">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -257,10 +260,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="504" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587333791749" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590101564107">
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590101782177">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590101564107" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590101782177" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_adapter@NodeAdapterLibraryTest.rcov" NAME="NodeAdapterLibraryTest Coverage Results" MODIFIED="1590101473490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter" />
