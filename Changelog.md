@@ -1,12 +1,15 @@
 # Changelog
 
-## v0.2.0, 2020-05-21
+## v1.0.0, 2020-06-09
 
 ### Added
 
 - node_adapter_int 'require'ment.
 - Test coverage.
-- node development dependency.
+- node_comp, diagram_comp, linked_list_comp, data_library, node_error, and
+ diagram_factory_comp development dependencies.
+- Bumped node_adapter_impl dependency major version.
+- FUNDING.yml.
 
 ### Edited
 
